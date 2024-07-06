@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ログ集計</title>
+</head>
+<body>
+    <form id="aggregationForm" method="post" action="log_aggregator.php">
+        <label for="type">集計間隔を選択してください:</label>
+        <select id="type" name="type">
+            <option value="hour">時間ごと</option>
+            <option value="minute">分ごと</option>
+            <option value="second">秒ごと</option>
+        </select>
+        <br><br>
+        <button type="submit">集計開始</button>
+    </form>
+</body>
+</html>
